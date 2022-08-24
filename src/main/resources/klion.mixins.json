@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kcreates.mods.klion.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractBlockStateMixin",
+    "BlockMixin",
+    "CactusBlockMixin",
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "FluidBlockMixin",
+    "KeyboardMixin",
+    "MinecraftClientMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

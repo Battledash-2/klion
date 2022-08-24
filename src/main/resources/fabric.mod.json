@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "klion",
+  "version": "${version}",
+  "name": "KLion",
+  "description": "A modded Minecraft client.",
+  "authors": [
+    "Battledash_2"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/klion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kcreates.mods.klion.KLion"
+    ]
+  },
+  "mixins": [
+    "klion.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
